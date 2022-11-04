@@ -19,3 +19,6 @@ Api para uso de login mediante token, esta desarrollada con NodeJS y Express
 	"token": "success"
 }
 ```
+
+##Contacto
+[LinkedIn](https://www.linkedin.com/in/roseabdev/)
