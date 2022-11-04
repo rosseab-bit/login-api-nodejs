@@ -3,7 +3,7 @@ Api para uso de login mediante token, esta desarrollada con NodeJS y Express
 ## Cuenta con 3 rutas:
 * / : Unicamente es un mensaje de que el server esta corriendo.
 * /api/signup : En esta ruta te das de alta para poder obtener un token enviando en el body las credenciales para poder obtener el token. Se puede seguir desarrollando como por ejemplo agregar una base de datos para el registro.
-```
+```json
 {
 	"username": "admin",
 	"password": 1234
@@ -14,7 +14,7 @@ Api para uso de login mediante token, esta desarrollada con NodeJS y Express
 }
 ```
 * /api/verify : En esta ruta verificamos el token enviado en el header y devolvemos algo para poder seguir operando de a cuerdo a lo de devolvamos. 
-```
+```json
 {
 	"token": "success"
 }
